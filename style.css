@@ -1,7 +1,5 @@
 body{
-    background-color: #fafafa;
     transition: background .4s linear;
-
 }
 /* HEADER */
 header{
@@ -98,7 +96,7 @@ header .menu ul .theme input:checked + label .theme-content{
 header .header-content{
     margin: 4rem 0;
     height: 80vh;
-    background-color: #fff;
+  
 }
 
 /* LEFT */
