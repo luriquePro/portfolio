@@ -1,0 +1,42 @@
+body{
+    transition: background .4s linear;
+}
+html{
+    scroll-behavior: smooth;
+}
+main section{
+    height: 88vh;
+}
+main section h2.title::after{
+    content: "";
+    position: absolute;
+    width: 7.25rem;
+    height: 0.125rem;
+    left: 47.5%;
+    bottom: -3rem;
+    border-radius: 0.25rem;
+    background: #000;
+    transform: translate(-50%, -50%);
+}
+main section a.visit-button{
+    padding: 1rem;
+    border-radius: .4rem;
+    text-decoration: none;
+    width: 14rem;
+    font-weight: bold;
+}
+main section a.visit-button#githubButton{
+    background: linear-gradient(267.93deg, #222, #bbb, #aaa);
+    color: #fff;
+}
+main section a.visit-button#linkedinButton{
+    background: linear-gradient(267.93deg, rgb(1, 179, 255) -42.09%, rgb(23, 25, 31) 108.97%);
+    color: #fff;
+}
+
+main section a.visit-button#githubButton:hover{background: linear-gradient(267.7deg, #333, #aaa, #666)}
+main section a.visit-button#linkedinButton:hover{background: linear-gradient(267.7deg, rgb(1, 179, 255) -10.09%, rgb(23, 25, 31) 152.32%)}
+
+main section a.visit-button svg{
+    margin-left: 1rem;
+}
